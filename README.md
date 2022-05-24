@@ -1,2 +1,2 @@
-# DimenzionsExamProject
- II semester Multimedia Design Exam Project - DIMENZIONS
+# DimenzionsProject
+ II Semester Exam Project - Multimedia Design
