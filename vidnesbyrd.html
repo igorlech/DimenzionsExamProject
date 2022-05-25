@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dimenzions | Vores kunder siger</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/jfb3obb.css">
 </head>
@@ -43,7 +43,7 @@
         <!-- first company -->
         <div class="virksomhed">
             <div class="virksomhed-title-cont">
-                <h2 class="virksomhed-title">Natur drogeriet</h2>
+                <h2 class="virksomhed-title">Naturdrogeriet</h2>
             </div>
             <div class="virksomhed-photo-cont">
                 <img src="img/NaturdrogerietPhoto.jpg" class="virksomhed-photo" alt="Company's name">
@@ -94,7 +94,7 @@
                 <img src="img/RETHINKlogo.png" class="virksomhed-logo" id="rethink-consulting" alt="Rethink consulting">
             </div>
         </div>
-        <!-- Fourth company -->
+    <!-- Fourth company -->
         <div class="virksomhed">
             <div class="virksomhed-title-cont">
                 <h2 class="virksomhed-title">Aarhus Universitethospital</h2>
@@ -109,20 +109,54 @@
                 </p>
             </div>
             <div class="virksomhed-logo-cont">
-                <img src="img/SkejbySygehusLogo.png" class="virksomhed-logo" alt="Aarhus Universitethospital logo">
+                <img src="img/SkejbySygehusLogo.png" class="virksomhed-logo" id="aarhus-hospital" alt="Aarhus Universitethospital logo">
             </div>
         </div>
+    <!-- Desktop version -->
         <div class="vks-desktop">
             <div class="leftside-nav-vks">
                 <div class="vks-clickables">
-                    <a href="#" class="vks-click" onclick="showOutputOne()">Naturdrogeriet</a>
-                    <a href="#" class="vks-click" onclick="showOutputTwo()">Harder Herretøj</a>
-                    <a href="#" class="vks-click" onclick="showOutputThree()">Rethink Consulting</a>
-                    <a href="#" class="vks-click" onclick="showOutputFour()">Aarhus Universitethospital</a>
+                    <a href="#" id="vks-one" class="vks-click vks-active" onclick="showOutputOne()">Naturdrogeriet</a>
+                    <a href="#" id="vks-two" class="vks-click" onclick="showOutputTwo()">Harder Herretøj</a>
+                    <a href="#" id="vks-three" class="vks-click" onclick="showOutputThree()">Rethink Consulting</a>
+                    <a href="#" id="vks-four" class="vks-click" onclick="showOutputFour()">Aarhus Universitethospital</a>
                 </div>
             </div>
             <div class="rightside-vks">
-                <div class="vks-output" id="vks-output">WORKS</div>
+                <div class="vks-output" id="vks-output">
+                    <div class="vks-out-head-cont">
+                        <h2 class="vks-out-heading">Naturdrogeriet</h2>
+                    </div>
+                    <div class="vks-out-content">
+                        <div class="vks-out-cont-text">
+                            <p class="vks-out-p">"Helle er utrolig nem at arbejde sammen med. Humøret er altid højt, hendes tilgang til alt er positivt og konstruktivt. Hun har løftet vores designlinje til nye højder og dermed bidraget til at vores målgruppe er blevet væsentligt større. Og hun er utrættelig hvad angår forslag til forbedringer til både produkter og design." <br><br>
+                                - Helle</p>
+                            <div class="littlecont">
+                                <img src="img/NaturdrogerietLogo.png" class="vks-text-littleimage" alt="Naturdrogeriet Logo">
+                            </div>
+                        </div>
+                        <div class="vks-out-cont-image">
+                            <img src="img/NaturdrogerietPhoto.jpg" class="vks-image" alt="Naturdrogeriet Product">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="vks-desktop-bottom">
+            <div class="vks-btm-left">
+                <img src="img/peoplework.jpg" class="vks-btm-limg" alt="People Working">
+            </div>
+            <div class="vks-btm-right">
+                <div class="vks-btm-right-content">
+                    <div class="vks-btm-text-cont">
+                        <p class="vks-btm-text">Har du arbejdet med Dimenzions før?<br>Fortæl os om din oplevelse!</p>
+                    </div>
+                    <div class="vks-btm-button-cont1">
+                        <div class="vks-button-cont2">
+                            <a href="kontakt.html" class="vks-button">Kontakt os!</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

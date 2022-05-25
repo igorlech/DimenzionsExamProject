@@ -1,5 +1,10 @@
-.mySlides {display: none}
-img {vertical-align: middle;}
+.mySlides, .mySlidesb, .mySlidesc, .mySlidesd, .mySlidesee, .mySlidesDa, .mySlidesDb, .mySlidesDc, .mySlidesDd, .mySlidesDe {
+  display: none
+}
+
+img {
+  vertical-align: middle;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -52,7 +57,7 @@ img {vertical-align: middle;}
 }
 
 /* The dots/bullets/indicators */
-.dot, .dotb, .dotc, .dotd, .dote, .dotf {
+.dot, .dotb, .dotc, .dotd, .dote, .dotf, .dotDa, .dotDb, .dotDc, .dotDd, .dotDe {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -63,7 +68,7 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover, .dotb:hover, .dotc:hover, .dotd:hover, .dote:hover, .dotf:hover {
+.active, .dot:hover, .dotb:hover, .dotc:hover, .dotd:hover, .dote:hover, .dotf:hover, .dotDa:hover, .dotDb:hover, .dotDc:hover, .dotDd:hover, .dotDe:hover {
   background-color: #717171;
 }
 
@@ -85,4 +90,10 @@ img {vertical-align: middle;}
 
 .galleryimage {
     width: 1rem;
+}
+
+/* Desktop version */
+
+.sc-desk {
+  width: 40em;
 }
