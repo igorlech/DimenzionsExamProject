@@ -22,7 +22,7 @@ let templateOne = `<div class="vks-out-head-cont">
 </div>
 </div>`;
 let templateTwo = `<div class="vks-out-head-cont">
-<h2 class="vks-out-heading">Harder<br>Herretøjt</h2>
+<h2 class="vks-out-heading">Harder<br>Herretøj</h2>
 </div>
 <div class="vks-out-content">
 <div class="vks-out-cont-text">
