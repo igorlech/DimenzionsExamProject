@@ -173,6 +173,10 @@ body {
   .home-header-title-cont, .header-title-1, .header-title-2 {
     margin: 0;
   }
+
+  .nav-logo {
+    margin-left: 0;
+  }
 }
 
 /* ARROW STYLING */
