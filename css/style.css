@@ -92,6 +92,7 @@ body {
   display: inline;
   float: right;
   font-size: 18px;
+  margin-right: 2.5rem;
 }
   
 .nav > .nav-links > a {
@@ -112,7 +113,7 @@ body {
 
 .nav-logo {
   width: 3em;
-  margin-left: 0.5em;
+  margin-left: 1.5em;
 }
 
 .pageactive {
@@ -224,9 +225,14 @@ html {
   align-items: center;
 }
 
-.animlogo{
+.animlogo {
   width: 80%;
   margin-top: 1.5rem;
+  display: none;
+}
+
+.balls {
+  width: 60%;
 }
 
 .interback {
@@ -497,14 +503,16 @@ html {
 .om-text-cont{
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 80%;
 }
 
 .om-text{
-  width: 80%;
   font-family: europa, sans-serif, light;
   font-weight: lighter;
   color: #5E5D5D;
   margin-top: 2rem;
+  margin-left: 2.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -625,7 +633,7 @@ html {
   
   /* Home desktop */
 
-  .greyline, .whiteline, .numberwords, .home-header-title-cont, .oneword {
+  .greyline, .whiteline, .numberwords, .home-header-title-cont, .oneword, .animlogo {
     display: none;
   }
   
@@ -740,8 +748,7 @@ html {
     height: 20vw;
     background-color: rgb(152, 146, 146, 0.6);
     position: absolute;
-
-    font-size: 0.9vw;
+    font-size: 1.4vw;
     padding-top: 1em;
     color: white;
     display: flex;
@@ -757,7 +764,6 @@ html {
     height: 20vw;
     background-color: rgb(255, 255, 255);
     position: absolute;
-
     font-size: 2vw;
     writing-mode: vertical-lr;
     text-align: end;
@@ -886,6 +892,59 @@ html {
     left: 84.5%;
   }
 
+  /* Om dimenzions desktop */
+
+  #om-title-page{
+    font-size: 6rem;
+    z-index: 999;
+  }
+
+  .omdesktop{
+    display: block;
+    width: 100%;
+    position: relative;
+  }
+  
+  .om-vidcont{
+    display: none;
+  }
+
+  .om-vidcont2{
+    display: block;
+    position: relative;
+    margin-top: -4em;
+  }
+
+  .video2{
+    position: absolute;
+    width: 65vw;
+    height: 40vw;
+    top: 25em;
+    right: 2em;
+  }
+
+  .om-background-desktop{
+    display: block;
+    width: 100%;
+  }
+
+  .om-text{
+    position: absolute;
+    top: 78em;
+    right: 17em;
+    z-index: 999;
+    color: #006281;
+    font-size: 1.3vw;
+    width: 25vw;
+  }
+
+}
+
+@media screen and (min-width: 1400px) {
+
+  .total-box-cont{
+    margin-left: 25vh;
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -913,16 +972,12 @@ html {
   }
 
   .total-box-cont{
-    width: 100%;
     display: block;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 5rem;
+    margin-left: 35vh;
   }
 
   .total-box{
-    width: 65%;
     display: flex;
     position: relative;
   }
@@ -954,7 +1009,7 @@ html {
     background-image: url("../img/lightbrochurer.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    left: 20em;  
+    left: 20em;
   }
 
   .brochure{
@@ -1304,7 +1359,7 @@ html {
   }
 
   .vks-btm-limg {
-    width: 50em;
+    width: 50vw;
     display: block;
   }
 
@@ -1316,7 +1371,7 @@ html {
   .vks-btm-right-content {
     background-image: url("../img/lightbrochurer.png");
     background-size: cover;
-    width: 40em;
+    width: 40vw;
     height: 18em;
     display: flex;
     flex-direction: column;
@@ -1346,52 +1401,6 @@ html {
     transition: 0.5s;
     background-color: rgb(0, 98, 129, 0.4);
   }
-  /* Om dimenzions desktop */
-
-  #om-title-page{
-    font-size: 6rem;
-    z-index: 999;
-  }
-
-  .omdesktop{
-    display: block;
-    width: 100%;
-    position: relative;
-  }
-  
-  .om-vidcont{
-    display: none;
-  }
-
-  .om-vidcont2{
-    display: block;
-    position: relative;
-    width: 100%;
-    margin-top: -4rem;
-  }
-
-  .video2{
-    position: absolute;
-    width: 65%;
-    height: 40rem;
-    top: 25em;
-    right: 2em;
-  }
-
-  .om-background-desktop{
-    display: block;
-    width: 100%;
-  }
-
-  .om-text{
-    position: absolute;
-    top: 67em;
-    right: 14.5em;
-    z-index: 999;
-    color: #006281;
-    font-size: 1.5vw;
-    width: 25%;
-  }
 
   /* Kontakt desktop */
 
@@ -1416,6 +1425,11 @@ html {
   .form-input{
     width: 50%;
     height: 2rem;
+  }
+
+  .formelements-single {
+    display: flex;
+    flex-direction: column;
   }
 
   #gmap_canvas{
