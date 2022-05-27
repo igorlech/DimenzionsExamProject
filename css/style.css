@@ -60,7 +60,6 @@ main {
   
 body {
   margin: 0px;
-  font-family: 'segoe ui';
 }
   
 .nav {
@@ -100,6 +99,7 @@ body {
   padding: 13px 10px 13px 10px;
   text-decoration: none;
   color: #006281;
+  font-family: raleway, sans-serif, medium;
 }
   
 .nav > .nav-links > a:hover {
